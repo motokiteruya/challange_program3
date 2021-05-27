@@ -1,5 +1,5 @@
 #勇者の攻撃
-class Brave < character
+class Brave < Character
   def attack_monster(monster)
     puts "#{@name}の攻撃"
     damage = @offense - monster.defense / 2

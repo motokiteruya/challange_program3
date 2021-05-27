@@ -1,4 +1,4 @@
-class character
+class Character
   attr_accessor :hp
   attr_reader :name, :offense, :defense
   def initialize(name:, hp:, offense:, defense:)
